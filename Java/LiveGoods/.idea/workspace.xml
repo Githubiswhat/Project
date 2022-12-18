@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b6c35b2-cbd9-409f-83c4-ed9c437de85c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Common/src/main/java/com/example/commons/Results.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Common/src/main/java/com/example/commons/message/LiveGoodsBuyMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Common/src/main/java/com/example/commons/message/LiveGoodsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Eureka_Server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Gateway/DockerFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Gateway/src/main/java/com/example/gateway/SpringbootLearningApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_POJO/src/main/java/com/example/pojo/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_POJO/src/main/java/com/example/pojo/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_POJO/src/main/java/com/example/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_POJO/src/main/java/com/example/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Rabbit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Rabbit/src/main/java/com/example/rabbitsender/send/publisher/PublisherSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Rabbit/src/main/java/com/example/rabbitsender/send/publisher/config/PublisherConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Rabbit/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LiveGoods_Redis/src/main/java/com/example/redis/config/RedisCacheConfiguration.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Code\ENV\Java\Maven\repository" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2J50A4eSoeW4JyaUhLH8cseiiOy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Github/Project/Java/LiveGoods/LiveGoods_Rabbit/src/main/java/com/example",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "92c7be36d7c0ade3fe73de243a40e559"
+  }
+}]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\Project\Java\LiveGoods\LiveGoods_Rabbit\src\main\java\com\example" />
+      <recent name="D:\Github\Project\Java\LiveGoods" />
+      <recent name="D:\Github\Project\Java\LiveGoods\LiveGoods_Common\src\main\java\com\example" />
+      <recent name="D:\Github\Project\Java\LiveGoods\LiveGoods_POJO\src\main\java\com\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\Project\Java\LiveGoods\LiveGoods_Gateway\src\main\java\com\example\gateway" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.eurekaserver" />
+      <recent name="com.example.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootLearningApplication">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="LiveGoods_Eureka_Server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLearningApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="LiveGoods_Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SpringbootLearningApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLearningApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="LiveGoods_Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.SpringbootLearningApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLearningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="LiveGoods_Eureka_Server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SpringbootLearningApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b6c35b2-cbd9-409f-83c4-ed9c437de85c" name="Changes" comment="" />
+      <created>1671352491152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671352491152</updated>
+      <workItem from="1671352492603" duration="1303000" />
+      <workItem from="1671353896981" duration="2578000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

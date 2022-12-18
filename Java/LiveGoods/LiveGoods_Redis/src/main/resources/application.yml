@@ -1,0 +1,7 @@
+spring:
+  redis:
+    host: 192.168.255.130
+    port: 6379
+    database: 1
+
+

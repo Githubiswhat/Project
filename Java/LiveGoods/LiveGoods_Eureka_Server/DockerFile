@@ -1,0 +1,5 @@
+FROM openjdk:latest
+EXPOSE 8761
+VOLUME /var/myData
+ADD target/SpringCloud_Eureka_Server-0.0.1-SNAPSHOT.jar eureka-server.jar
+ENTRYPOINT ["java", "-jar", "/eureka-server.jar"]

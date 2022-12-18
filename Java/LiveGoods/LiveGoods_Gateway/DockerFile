@@ -1,0 +1,5 @@
+FROM openjdk:latest
+EXPOSE 8761
+VOLUME /var/myData
+ADD target/LiveGoods_Gateway-0.0.1-SNAPSHOT.jar gateway.jar
+ENTRYPOINT ["java", "-jar", "/gateway.jar"]

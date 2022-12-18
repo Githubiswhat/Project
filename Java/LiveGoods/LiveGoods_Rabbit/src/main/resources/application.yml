@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 192.168.255.130
+    username: elton
+    password: elton
+  config:
+    activate:
+      on-profile: commons
+
+

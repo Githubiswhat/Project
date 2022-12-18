@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="LiveGoods_POJO" />
+        <module name="LiveGoods_Eureka_Server" />
+        <module name="LiveGoods_Gateway" />
+        <module name="LiveGoods_Common" />
+        <module name="LiveGoods_Mongo" />
+        <module name="LiveGoods_Rabbit" />
+        <module name="LiveGoods_Redis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="LiveGoods_Mongo_Dao" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LiveGoods_Common" options="-parameters" />
+      <module name="LiveGoods_Eureka_Server" options="-parameters" />
+      <module name="LiveGoods_Gateway" options="-parameters" />
+      <module name="LiveGoods_Mongo" options="-parameters" />
+      <module name="LiveGoods_Mongo_Dao" options="-parameters" />
+      <module name="LiveGoods_POJO" options="-parameters" />
+      <module name="LiveGoods_Rabbit" options="-parameters" />
+      <module name="LiveGoods_Redis" options="-parameters" />
+    </option>
+  </component>
+</project>
