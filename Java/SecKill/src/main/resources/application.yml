@@ -1,0 +1,76 @@
+mybatis:
+    configuration:
+        default-fetch-size: 100
+        default-statement-timeout: 3000
+        map-underscore-to-camel-case: true
+    mapperLocations: classpath:com/jesper/seckill/mapper/*.xml
+    type-aliases-package: com.jesper.seckill.mapper
+
+redis:
+    host: 192.168.255.130
+    poolMaxIdle: 500
+    poolMaxTotal: 1000
+    poolMaxWait: 500
+    port: 6379
+    timeout: 10
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        filters: stat
+        initialSize: 100
+        maxActive: 1000
+        maxOpenPreparedStatements: 20
+        maxWait: 60000
+        minEvictableIdleTimeMillis: 300000
+        minIdle: 500
+        password: 123456
+        poolPreparedStatements: true
+        testOnBorrow: false
+        testOnReturn: false
+        testWhileIdle: true
+        timeBetweenEvictionRunsMillis: 60000
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://192.168.255.130:3306/seckill?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+        username: root
+        validationQuery: select 'x'
+
+    rabbitmq:
+        host: 192.168.255.130
+        listener:
+            simple:
+                auto-startup: true
+                concurrency: 10
+                default-requeue-rejected: true
+                max-concurrency: 10
+                prefetch: 1
+        password: guest
+        port: 5672
+        template:
+            retry:
+                enabled: true
+                initial-interval: 1000
+                max-attempts: 3
+                max-interval: 10000
+                multiplier: 1.0
+        username: guest
+        virtual-host: /
+
+    resources:
+        add-mappings: true
+        cache-period: 3600
+        chain:
+            cache: true
+            enabled: true
+            gzipped: true
+            html-application-cache: true
+        static-locations: classpath:/static/
+
+    thymeleaf:
+        cache: false
+        content-type: text/html
+        enabled: true
+        encoding: UTF-8
+        mode: HTML5
+        prefix: classpath:/templates/
+        suffix: .html
